@@ -1,0 +1,41 @@
+.card {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+& .card-title {
+    padding: 0 16px;
+    line-height: 40px;
+}
+
+& .card-image {
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+& .card-image img {
+    display: block;
+}
+
+& .card-content {
+    padding: 16px;
+    line-height: 18px;
+    font-size: 14px;
+}
+
+& .card-actions {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+}
+
+& .card-actions button {
+    flex: 1;
+    height: 40px;
+    background-color: blueviolet;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 0 16px;
+}
